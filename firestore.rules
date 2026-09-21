@@ -1,0 +1,11 @@
+rules_version = '2' ;
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /syncKeys/{key} {
+      allow get, list: if false; // no data lives directly here; also blocks enumerating all keys
+      match /{document=**} {
+        allow read, write: if true; // only reachable if you already know the exact key
+      }
+    }
+  }
+}
