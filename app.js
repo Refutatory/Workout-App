@@ -1,8 +1,16 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { initializeFirestore, persistentLocalCache, collection, doc, setDoc, addDoc, deleteDoc, onSnapshot, query, orderBy, limit, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
-// Paste the web config from Firebase Console here. The app still renders a local demo shell until configured.
-const firebaseConfig = { apiKey: 'PASTE_API_KEY', authDomain: 'PASTE_PROJECT.firebaseapp.com', projectId: 'PASTE_PROJECT', storageBucket: 'PASTE_PROJECT.appspot.com', messagingSenderId: 'PASTE_SENDER_ID', appId: 'PASTE_APP_ID' };
+// Firebase web config. The measurement ID is optional for this Firestore-only app.
+const firebaseConfig = {
+  apiKey: "AIzaSyDoY2Pf_u3C_o1eBKQwmEymJgraIaZcffY",
+  authDomain: "workout-app-ed738.firebaseapp.com",
+  projectId: "workout-app-ed738",
+  storageBucket: "workout-app-ed738.firebasestorage.app",
+  messagingSenderId: "1083241132824",
+  appId: "1:1083241132824:web:595f0ccf8114e30d52a46d",
+  measurementId: "G-PWEDH51MWD"
+};
 const configured = !firebaseConfig.apiKey.startsWith('PASTE_');
 const $ = (selector, root = document) => root.querySelector(selector);
 const today = () => new Date().toISOString().slice(0, 10);
