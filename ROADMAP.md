@@ -42,15 +42,15 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Acceptance: Show loading, syncing, saved, offline, and error states; retry failed saves without silently losing data.
   - Priority: Next
 
-- [ ] **Delete confirmations** — Confirm destructive actions.
+- [X] **Delete confirmations** — Confirm destructive actions.
   - Acceptance: Confirm before deleting routines, workouts, activities, meals, or app notes.
   - Priority: Next
 
-- [ ] **Local date/time handling** — Prevent UTC date errors near midnight.
+- [X] **Local date/time handling** — Prevent UTC date errors near midnight.
   - Acceptance: User-facing dates use the device's local date consistently.
   - Priority: Next
 
-- [ ] **Meal editing and deletion** — Improve daily diet management.
+- [--] **Meal editing and deletion** — Improve daily diet management.
   - Acceptance: Edit or delete individual meals and recalculate daily totals correctly.
   - Priority: Next
 
