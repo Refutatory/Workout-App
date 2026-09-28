@@ -107,7 +107,8 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 Add uncommitted ideas here before deciding whether they belong in Planned updates.
 
 - [ ] **Photo uploads** — Deliberately deferred. Revisit only after designing and testing private storage and access rules.
-- [ ] _Empty_
+- [ ] Add ability for weigh-in storage
+- [ ] add ability to export to csv this update should also add a reminder for showing history limit or when I am getting close. 
 
 ## Change log
 
