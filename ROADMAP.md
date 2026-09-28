@@ -27,6 +27,9 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 
 ### Next
 
+- [ ] **Body-weight tracking** — Record dated weigh-ins using the selected weight unit and show a simple history/trend.
+    - Priority: Next
+
 - [ ] **Reminder cadence** — Add private in-app reminders for recurring personal check-ins.
   - Acceptance: Create a reminder with a title, frequency/cadence, next due date, and optional notes; show due and upcoming reminders on the app; allow snoozing, completing, editing, and deleting.
   - Initial example: remind me to take progress photos, without uploading or storing photos in the app.
@@ -52,8 +55,9 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Acceptance: User-facing dates use the device's local date consistently.
   - Priority: Next
 
-- [--] **Meal editing and deletion** — Improve daily diet management.
+- [ ] **Meal editing and deletion** — Improve daily diet management.
   - Acceptance: Edit or delete individual meals and recalculate daily totals correctly.
+  - Progress: Deletion complete; editing remains.
   - Priority: Next
 
 - [ ] **Diet trends** — Show recent nutrition progress.
@@ -101,8 +105,7 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 Add uncommitted ideas here before deciding whether they belong in Planned updates.
 
 - [ ] **Photo uploads** — Deliberately deferred. Revisit only after designing and testing private storage and access rules.
-- [ ] Add ability for weigh-in storage
-- [ ] add ability to export to csv this update should also add a reminder for showing history limit or when I am getting close. 
+- [ ] add a reminder for showing history limit or when I am getting close. 
 
 ## Change log
 
