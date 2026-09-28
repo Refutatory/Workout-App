@@ -63,13 +63,13 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 - [ ] **History filters and details** — Make the unified history easier to use.
   - Acceptance: Filter by date and record type; show readable expandable details for workouts, activities, and diet.
   - Priority: Next
-
+     
+- [ ] **Body-weight tracking** — Record dated weigh-ins using the selected weight unit and show a simple history/trend.
+  - Priority: Next
+  - 
 ### Later
 
 - [ ] **Personal records** — Track and display exercise PRs.
-  - Priority: Later
-
-- [ ] **Body-weight tracking** — Record weight over time and show a trend.
   - Priority: Later
 
 - [ ] **Weekly summary** — Add a compact dashboard for recent training, activity, diet, and goals.
