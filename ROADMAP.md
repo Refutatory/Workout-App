@@ -26,12 +26,6 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Acceptance: Start, pause, skip, and reset the timer; use the existing rest-timer setting; work on phone and desktop.
   - Priority: Now
 
-- [ ] **App notes** — Add a Notes section for thoughts about the app itself.
-  - Acceptance: Create, edit, delete, and view notes; sync notes across devices; keep them separate from workout/activity notes.
-  - Data path: `syncKeys/{hashedKey}/appNotes/{noteId}`
-  - Suggested fields: title, body, category, status, createdAt, updatedAt.
-  - Priority: Now
-
 ### Next
 
 - [ ] **Reminder cadence** — Add private in-app reminders for recurring personal check-ins.
