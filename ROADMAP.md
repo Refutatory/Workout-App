@@ -106,6 +106,7 @@ Add uncommitted ideas here before deciding whether they belong in Planned update
 
 - [ ] **Photo uploads** — Deliberately deferred. Revisit only after designing and testing private storage and access rules.
 - [ ] add a reminder for showing history limit or when I am getting close. 
+- [ ] history needs to be delete-able. when deleting a meal the day gets loaded into history with no info. additionally the details page is code notes, it needs to be more readable. additionally, a recipe list or saved log needs to be a high priority. similarly, finding an existing library of workouts to load and select from would be good as part of the updated workout flow. 
 
 ## Change log
 
