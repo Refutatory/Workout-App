@@ -1,4 +1,4 @@
-# Form & Fuel Roadmap
+# Fitness + Nutrition Roadmap
 
 This file is the durable backlog for future app updates. Chat is useful for discussion, but decisions and requested features should be recorded here so they do not disappear when a conversation is lost.
 
@@ -33,6 +33,12 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Priority: Now
 
 ### Next
+
+- [ ] **Reminder cadence** — Add private in-app reminders for recurring personal check-ins.
+  - Acceptance: Create a reminder with a title, frequency/cadence, next due date, and optional notes; show due and upcoming reminders on the app; allow snoozing, completing, editing, and deleting.
+  - Initial example: remind me to take progress photos, without uploading or storing photos in the app.
+  - Privacy: reminders should contain only text and dates; no photo upload feature yet.
+  - Priority: Next
 
 - [ ] **Ad-hoc workouts** — Log a workout without first creating a saved routine.
   - Acceptance: Add exercises and sets during a session, then save it to workout history.
@@ -85,7 +91,7 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 - [ ] **PWA polish** — Add a clear update notice and improve install/offline messaging.
   - Priority: Later
 
-- [ ] **Theme options** — Consider dark mode after core workflows are stable.
+- [x] **Theme options** — Updated the app to the Fitness + Nutrition name with a clean, dark-ocean Seattle-inspired slate and light-blue theme.
   - Priority: Later
 
 ## Decisions and guardrails
@@ -100,9 +106,11 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 
 Add uncommitted ideas here before deciding whether they belong in Planned updates.
 
-- [ ] scanning nutrition labels
-- 
+- [ ] **Photo uploads** — Deliberately deferred. Revisit only after designing and testing private storage and access rules.
+- [ ] _Empty_
 
 ## Change log
 
 - **2026-09-27** — Created roadmap from the existing project brief and planning conversation. Added the app Notes feature requested by Brandon.
+- **2026-09-27** — Renamed the app to Fitness + Nutrition and chose a clean dark-ocean theme. App Notes and photo uploads deferred; future notes may belong on workouts or recipes.
+- **2026-09-27** — Deferred photo uploads and added a reminder-cadence feature for text-based check-ins such as progress-photo reminders.

@@ -1,4 +1,4 @@
-# Form & Fuel
+# Fitness + Nutrition
 
 A static, mobile-first fitness tracker for routines, movement, nutrition, and history. It is plain HTML/CSS/vanilla JavaScript: no bundler, framework, npm install, or server-side code.
 

@@ -1,6 +1,6 @@
-const CACHE = 'form-fuel-shell-v3';
-const SHELL = ['./', './index.html', './styles.css', './app.js?v=3', './manifest.json', './icon-192.svg', './icon-512.svg'];
-const NETWORK_FIRST = new Set(['/', '/index.html', '/app.js?v=3', '/styles.css', '/manifest.json', '/service-worker.js?v=3']);
+const CACHE = 'fitness-nutrition-shell-v4';
+const SHELL = ['./', './index.html', './styles.css', './app.js?v=4', './manifest.json', './icon-192.svg', './icon-512.svg'];
+const NETWORK_FIRST = new Set(['/', '/index.html', '/app.js?v=4', '/styles.css', '/manifest.json', '/service-worker.js?v=4']);
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
