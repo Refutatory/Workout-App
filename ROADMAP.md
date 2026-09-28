@@ -100,7 +100,8 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 
 Add uncommitted ideas here before deciding whether they belong in Planned updates.
 
-- [ ] _Empty_
+- [ ] scanning nutrition labels
+- 
 
 ## Change log
 
