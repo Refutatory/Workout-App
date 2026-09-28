@@ -22,8 +22,7 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Acceptance: Start a routine, see the current exercise, enter sets/reps/weight, move through exercises, finish or cancel, and save the workout using the existing Firestore workout format.
   - Priority: Now
 
-- [ ] **Rest timer** — Add a configurable countdown between sets.
-  - Acceptance: Start, pause, skip, and reset the timer; use the existing rest-timer setting; work on phone and desktop.
+- [ ] **Data export** — Export personal data to JSON and/or CSV.
   - Priority: Now
 
 ### Next
@@ -32,6 +31,9 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Acceptance: Create a reminder with a title, frequency/cadence, next due date, and optional notes; show due and upcoming reminders on the app; allow snoozing, completing, editing, and deleting.
   - Initial example: remind me to take progress photos, without uploading or storing photos in the app.
   - Privacy: reminders should contain only text and dates; no photo upload feature yet.
+  - Priority: Next
+     
+- [ ] **Exercise library** — Add reusable common exercises and improve exercise naming consistency.
   - Priority: Next
 
 - [ ] **Ad-hoc workouts** — Log a workout without first creating a saved routine.
@@ -73,12 +75,6 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
 - [ ] **Weekly summary** — Add a compact dashboard for recent training, activity, diet, and goals.
   - Priority: Later
 
-- [ ] **Data export** — Export personal data to JSON and/or CSV.
-  - Priority: Later
-
-- [ ] **Exercise library** — Add reusable common exercises and improve exercise naming consistency.
-  - Priority: Later
-
 - [ ] **Routine improvements** — Reorder exercises, duplicate routines, and repeat the last workout.
   - Priority: Later
 
@@ -86,6 +82,10 @@ When an item is completed, change `[ ]` to `[x]` and add a short note under it i
   - Priority: Later
 
 - [x] **Theme options** — Updated the app to the Fitness + Nutrition name with a clean, dark-ocean Seattle-inspired slate and light-blue theme.
+  - Priority: Later
+     
+- [ ] **Rest timer** — Add a configurable countdown between sets.
+  - Acceptance: Start, pause, skip, and reset the timer; use the existing rest-timer setting; work on phone and desktop.
   - Priority: Later
 
 ## Decisions and guardrails
